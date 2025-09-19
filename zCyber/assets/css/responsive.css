@@ -1,0 +1,167 @@
+
+        /* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .orbital-container {
+        width: 100vw;
+        height: 100vw;
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+    .central-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+    
+    .orbit-1 {
+        width: 150px;
+        height: 150px;
+        animation-duration: 15s;
+    }
+    
+    .orbit-2 {
+        width: 220px;
+        height: 220px;
+        animation-duration: 25s;
+    }
+    
+    .orbit-3 {
+        width: 300px;
+        height: 300px;
+        animation-duration: 35s;
+    }
+    
+    .icon {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    /* Adjust icon positions for smaller orbits */
+    .orbit-1 .icon {
+        transform: rotate(0deg) translate(75px) rotate(0deg) !important;
+    }
+    
+    .orbit-1 .icon:nth-child(2) {
+        transform: rotate(120deg) translate(75px) rotate(-120deg) !important;
+    }
+    
+    .orbit-1 .icon:nth-child(3) {
+        transform: rotate(240deg) translate(75px) rotate(-240deg) !important;
+    }
+    
+    .orbit-2 .icon {
+        transform: rotate(0deg) translate(110px) rotate(0deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(2) {
+        transform: rotate(90deg) translate(110px) rotate(-90deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(3) {
+        transform: rotate(180deg) translate(110px) rotate(-180deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(4) {
+        transform: rotate(270deg) translate(110px) rotate(-270deg) !important;
+    }
+    
+    .orbit-3 .icon {
+        transform: rotate(0deg) translate(150px) rotate(0deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(2) {
+        transform: rotate(72deg) translate(150px) rotate(-72deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(3) {
+        transform: rotate(144deg) translate(150px) rotate(-144deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(4) {
+        transform: rotate(216deg) translate(150px) rotate(-216deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(5) {
+        transform: rotate(288deg) translate(150px) rotate(-288deg) !important;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .orbital-container {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .central-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .orbit-1 {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .orbit-2 {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .orbit-3 {
+        width: 240px;
+        height: 240px;
+    }
+    
+    /* Adjust icon positions for extra small screens */
+    .orbit-1 .icon {
+        transform: rotate(0deg) translate(60px) rotate(0deg) !important;
+    }
+    
+    .orbit-1 .icon:nth-child(2) {
+        transform: rotate(120deg) translate(60px) rotate(-120deg) !important;
+    }
+    
+    .orbit-1 .icon:nth-child(3) {
+        transform: rotate(240deg) translate(60px) rotate(-240deg) !important;
+    }
+    
+    .orbit-2 .icon {
+        transform: rotate(0deg) translate(90px) rotate(0deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(2) {
+        transform: rotate(90deg) translate(90px) rotate(-90deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(3) {
+        transform: rotate(180deg) translate(90px) rotate(-180deg) !important;
+    }
+    
+    .orbit-2 .icon:nth-child(4) {
+        transform: rotate(270deg) translate(90px) rotate(-270deg) !important;
+    }
+    
+    .orbit-3 .icon {
+        transform: rotate(0deg) translate(120px) rotate(0deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(2) {
+        transform: rotate(72deg) translate(120px) rotate(-72deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(3) {
+        transform: rotate(144deg) translate(120px) rotate(-144deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(4) {
+        transform: rotate(216deg) translate(120px) rotate(-216deg) !important;
+    }
+    
+    .orbit-3 .icon:nth-child(5) {
+        transform: rotate(288deg) translate(120px) rotate(-288deg) !important;
+    }
+}
